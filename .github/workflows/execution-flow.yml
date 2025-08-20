@@ -81,4 +81,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Output contents
-        run: echo "#{{ github }}"
+        run: echo "${{ github }}"

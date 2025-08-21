@@ -7,7 +7,7 @@ jobs:
             matrix:
                 os: [ubuntu-latest]
                 node-version: [16, 18]
-                exlude:
+                exclude:
                     - os: ubuntu-latest
                       node-version: 16        
         runs-on: ${{ matrix.os }}
